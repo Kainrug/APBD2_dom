@@ -14,6 +14,7 @@ Console.WriteLine(maxValue(arr));
 
 static double GetAverage(int[] arr)
 {
+
     int temp = 0;
     for (int i = 0; i < arr.Length; i++)
     {
@@ -21,6 +22,14 @@ static double GetAverage(int[] arr)
     }
 
     return temp / arr.Length;
+
+    int variable = 0;
+    for (int i = 0; i < arr.Length; i++)
+    {
+        variable += arr[i];
+    }
+
+    return variable / arr.Length;
 }
 
 static int maxValue(int[] arr)
