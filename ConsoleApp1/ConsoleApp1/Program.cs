@@ -14,13 +14,13 @@ Console.WriteLine(maxValue(arr));
 
 static double GetAverage(int[] arr)
 {
-    int sum = 0;
+    int variable = 0;
     for (int i = 0; i < arr.Length; i++)
     {
-        sum += arr[i];
+        variable += arr[i];
     }
 
-    return sum / arr.Length;
+    return variable / arr.Length;
 }
 
 static int maxValue(int[] arr)
